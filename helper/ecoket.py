@@ -38,9 +38,13 @@ if __name__ == '__main__':
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51870.19369178282!2d139.68867112167965!3d35.65515299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b60c0d52981%3A0x5db20f81d038f20c!2sTokyo%20Metropolitan%20Industrial%20Trade%20Center%20Hamamatsuch%C5%8D!5e0!3m2!1sen!2sfr!4v1766594568409!5m2!1sen!2sfr",
+                coordinates=(35.655153, 139.7607689),
+                address="Japan, 〒105-7501 Tokyo, Minato City, Kaigan, 1 Chome−7−1 東京ポートシティ竹芝オフィスタワ",
                 description="東京・浜松町　都立産業貿易センター２Ｆホール",
-                sources=[Source("https://web.archive.org/web/20050204025708/http://eco.ket.jp/page002.html", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20050204025708/http://eco.ket.jp/page002.html", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmihIGbPitN7h8Vc_sXo8I679FTgrlkYst2LWaAy_Wl45MDqMaFnozSO4Y2Vud8h07FgRpXdq_CPW3IWnFwj-AyKuJ0L7ShZyQ41TQcBAFNOouYZR3jFZXxn_SQsgsK-FST-5JK8g=w408-h544-k-no",
+                url="https://maps.app.goo.gl/ZF8XaGQinUTwnNMw6",
             ),  
         ]
         event = Event(
@@ -76,15 +80,22 @@ if __name__ == '__main__':
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.794139163649!2d139.72149177532782!3d35.558786036691345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860f87f5da4e3%3A0x8a0493a2f4accfb0!2sOta%20City%20Industrial%20Plaza%20PiO!5e0!3m2!1sen!2sfr!4v1766595182391!5m2!1sen!2sfr",
+                coordinates=(35.5587817, 139.7240667),
+                address="1-chōme-20-20 Minamikamata, Ota City, Tokyo 144-0035, Japan",
                 description="東京・蒲田　大田区産業プラザＰｉｏ大展示ホール",
-                sources=[Source("https://web.archive.org/web/20040810060849/http://eco.ket.jp/page002.html", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20040810060849/http://eco.ket.jp/page002.html", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlM30iutkku0DTSgB6rPTEw19CjIMC8icvKceGIJ2eTMqA35cGcD96nMco5OldsWWRdWwEFDXLxoAAXei1t3Zf7GGFGgyWvsUa8bPofUHCGvcxTY3TlJhQNxQFHYYg4fqCFHSE=w408-h544-k-no",
+                url="https://maps.app.goo.gl/7ebCWMtzDWoLJQms5",
             ),  
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51870.19369178282!2d139.68867112167965!3d35.65515299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b60c0d52981%3A0x5db20f81d038f20c!2sTokyo%20Metropolitan%20Industrial%20Trade%20Center%20Hamamatsuch%C5%8D!5e0!3m2!1sen!2sfr!4v1766594568409!5m2!1sen!2sfr",
+                coordinates=(35.655153, 139.7607689),
+                address="Japan, 〒105-7501 Tokyo, Minato City, Kaigan, 1 Chome−7−1 東京ポートシティ竹芝オフィスタワ",
                 description="東京・浜松町　都立産業貿易センター２Ｆ",
                 sources=[Source("https://web.archive.org/web/20040810060849/http://eco.ket.jp/page002.html", (ReliabilityTypes.Reliable, OriginTypes.Official))],
-                comments="Old location before date change."
+                comments="Old location before date change.",
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmihIGbPitN7h8Vc_sXo8I679FTgrlkYst2LWaAy_Wl45MDqMaFnozSO4Y2Vud8h07FgRpXdq_CPW3IWnFwj-AyKuJ0L7ShZyQ41TQcBAFNOouYZR3jFZXxn_SQsgsK-FST-5JK8g=w408-h544-k-no",
+                url="https://maps.app.goo.gl/ZF8XaGQinUTwnNMw6",
             ),  
         ]
         event = Event(
@@ -121,9 +132,13 @@ if __name__ == '__main__':
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51870.19369178282!2d139.68867112167965!3d35.65515299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b60c0d52981%3A0x5db20f81d038f20c!2sTokyo%20Metropolitan%20Industrial%20Trade%20Center%20Hamamatsuch%C5%8D!5e0!3m2!1sen!2sfr!4v1766594568409!5m2!1sen!2sfr",
-                description="東京・浜松町　都立産業貿易センター",
-                sources=[Source("https://web.archive.org/web/20030604192740/http://eco.ket.jp/page002.html", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                coordinates=(35.655153, 139.7607689),
+                address="Japan, 〒105-7501 Tokyo, Minato City, Kaigan, 1 Chome−7−1 東京ポートシティ竹芝オフィスタワ",
+                description="東京・浜松町　都立産業貿易センター２Ｆ",
+                sources=[Source("https://web.archive.org/web/20030604192740/http://eco.ket.jp/page002.html", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmihIGbPitN7h8Vc_sXo8I679FTgrlkYst2LWaAy_Wl45MDqMaFnozSO4Y2Vud8h07FgRpXdq_CPW3IWnFwj-AyKuJ0L7ShZyQ41TQcBAFNOouYZR3jFZXxn_SQsgsK-FST-5JK8g=w408-h544-k-no",
+                url="https://maps.app.goo.gl/ZF8XaGQinUTwnNMw6",
             ),  
         ]
         event = Event(
@@ -159,9 +174,13 @@ if __name__ == '__main__':
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51870.19369178282!2d139.68867112167965!3d35.65515299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b60c0d52981%3A0x5db20f81d038f20c!2sTokyo%20Metropolitan%20Industrial%20Trade%20Center%20Hamamatsuch%C5%8D!5e0!3m2!1sen!2sfr!4v1766594568409!5m2!1sen!2sfr",
+                coordinates=(35.655153, 139.7607689),
+                address="Japan, 〒105-7501 Tokyo, Minato City, Kaigan, 1 Chome−7−1 東京ポートシティ竹芝オフィスタワ",
                 description="東京・浜松町　都立産業貿易センター",
-                sources=[Source("https://web.archive.org/web/20030410132005/http://eco.ket.jp/page002.html", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20030410132005/http://eco.ket.jp/page002.html", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmihIGbPitN7h8Vc_sXo8I679FTgrlkYst2LWaAy_Wl45MDqMaFnozSO4Y2Vud8h07FgRpXdq_CPW3IWnFwj-AyKuJ0L7ShZyQ41TQcBAFNOouYZR3jFZXxn_SQsgsK-FST-5JK8g=w408-h544-k-no",
+                url="https://maps.app.goo.gl/ZF8XaGQinUTwnNMw6",
             ),  
         ]
         event = Event(
@@ -197,9 +216,13 @@ if __name__ == '__main__':
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51870.19369178282!2d139.68867112167965!3d35.65515299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b60c0d52981%3A0x5db20f81d038f20c!2sTokyo%20Metropolitan%20Industrial%20Trade%20Center%20Hamamatsuch%C5%8D!5e0!3m2!1sen!2sfr!4v1766594568409!5m2!1sen!2sfr",
+                coordinates=(35.655153, 139.7607689),
+                address="Japan, 〒105-7501 Tokyo, Minato City, Kaigan, 1 Chome−7−1 東京ポートシティ竹芝オフィスタワ",
+                # comments=None,
                 description="東京・浜松町　都立産業貿易センター",
-                sources=[Source("https://web.archive.org/web/20020607025109/http://sakura.comike.to/ecoket/ecoket.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20020607025109/http://sakura.comike.to/ecoket/ecoket.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmihIGbPitN7h8Vc_sXo8I679FTgrlkYst2LWaAy_Wl45MDqMaFnozSO4Y2Vud8h07FgRpXdq_CPW3IWnFwj-AyKuJ0L7ShZyQ41TQcBAFNOouYZR3jFZXxn_SQsgsK-FST-5JK8g=w408-h544-k-no",
+                url="https://maps.app.goo.gl/ZF8XaGQinUTwnNMw6",
             ),  
         ]
         event = Event(
@@ -235,9 +258,13 @@ if __name__ == '__main__':
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51870.19369178282!2d139.68867112167965!3d35.65515299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b60c0d52981%3A0x5db20f81d038f20c!2sTokyo%20Metropolitan%20Industrial%20Trade%20Center%20Hamamatsuch%C5%8D!5e0!3m2!1sen!2sfr!4v1766594568409!5m2!1sen!2sfr",
+                coordinates=(35.655153, 139.7607689),
+                address="Japan, 〒105-7501 Tokyo, Minato City, Kaigan, 1 Chome−7−1 東京ポートシティ竹芝オフィスタワ",
+                # comments=None,
                 description="東京・浜松町　都立産業貿易センター",
-                sources=[Source("https://web.archive.org/web/20011217200603/http://sakura.comike.to/ecoket/ecoket.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20011217200603/http://sakura.comike.to/ecoket/ecoket.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmihIGbPitN7h8Vc_sXo8I679FTgrlkYst2LWaAy_Wl45MDqMaFnozSO4Y2Vud8h07FgRpXdq_CPW3IWnFwj-AyKuJ0L7ShZyQ41TQcBAFNOouYZR3jFZXxn_SQsgsK-FST-5JK8g=w408-h544-k-no",
+                url="https://maps.app.goo.gl/ZF8XaGQinUTwnNMw6",
             ),  
         ]
         event = Event(
@@ -273,10 +300,14 @@ if __name__ == '__main__':
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.142518569291!2d139.78746807533398!3d35.69811032904744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188eb459950641%3A0x99332c088b0f7aa5!2sTokyo%20Wholesale%20Center%20Cooperative!5e0!3m2!1sen!2sfr!4v1766598701862!5m2!1sen!2sfr",
+                coordinates=(35.698106, 139.790043),
+                address="Tōshō Center Bldg., 2 Chome-1-9 Yanagibashi, Taito City, Tokyo 111-0052, Japan",
                 description="東京卸商センター３Ｆ",
-                sources=[Source("https://web.archive.org/web/20010602194507/http://sakura.comike.to/ecoket/ecoket.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
-            ),  
+                sources=[Source("https://web.archive.org/web/20010602194507/http://sakura.comike.to/ecoket/ecoket.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkTmZ2jNL9dQFF6WIjkLAb5tTcTmjIK0VspPB5V_agv8L0jgbo6REvJOi4f1iind4Y7k2Up0RuIAFh0cDH6DRPRs8HfyjxJwINTeZliqpYpUhn_L7w5Qt1j8KChb2qcea7I2IiK=s0?imgmax=0",
+                url="https://maps.app.goo.gl/DckJPZaR3gKUijkf6",
+            ),
         ]
         event = Event(
             aliases=["エコケット4", "EcoKet 4"],
@@ -311,9 +342,13 @@ if __name__ == '__main__':
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51870.19369178282!2d139.68867112167965!3d35.65515299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b60c0d52981%3A0x5db20f81d038f20c!2sTokyo%20Metropolitan%20Industrial%20Trade%20Center%20Hamamatsuch%C5%8D!5e0!3m2!1sen!2sfr!4v1766594568409!5m2!1sen!2sfr",
+                coordinates=(35.655153, 139.7607689),
+                address="Japan, 〒105-7501 Tokyo, Minato City, Kaigan, 1 Chome−7−1 東京ポートシティ竹芝オフィスタワ",
+                # comments=None,
                 description="東京・浜松町 都立産業貿易センター２Ｆ",
-                sources=[Source("https://web.archive.org/web/20001102054729/http://sakura.comike.to/ecoket/ecoket.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))]
+                sources=[Source("https://web.archive.org/web/20001102054729/http://sakura.comike.to/ecoket/ecoket.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmihIGbPitN7h8Vc_sXo8I679FTgrlkYst2LWaAy_Wl45MDqMaFnozSO4Y2Vud8h07FgRpXdq_CPW3IWnFwj-AyKuJ0L7ShZyQ41TQcBAFNOouYZR3jFZXxn_SQsgsK-FST-5JK8g=w408-h544-k-no",
+                url="https://maps.app.goo.gl/ZF8XaGQinUTwnNMw6",
             ),  
         ]
         event = Event(
@@ -349,7 +384,14 @@ if __name__ == '__main__':
             ]
         locations = [
             # Location(
-            #     iframe_url="",
+            #     coordinates=(35.655153, 139.7607689),
+            #     address="Japan, 〒105-7501 Tokyo, Minato City, Kaigan, 1 Chome−7−1 東京ポートシティ竹芝オフィスタワ",
+            #     # comments=None,
+            #     description="東京・浜松町 都立産業貿易センター２Ｆ",
+            #     sources=[Source("https://web.archive.org/web/20001102054729/http://sakura.comike.to/ecoket/ecoket.htm", (ReliabilityTypes.Reliable, OriginTypes.Official))],
+            #     imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmihIGbPitN7h8Vc_sXo8I679FTgrlkYst2LWaAy_Wl45MDqMaFnozSO4Y2Vud8h07FgRpXdq_CPW3IWnFwj-AyKuJ0L7ShZyQ41TQcBAFNOouYZR3jFZXxn_SQsgsK-FST-5JK8g=w408-h544-k-no",
+            #     url="https://maps.app.goo.gl/ZF8XaGQinUTwnNMw6",
+
             #     description="",
             #     sources=[Source("", (ReliabilityTypes.Reliable, OriginTypes.Official))]
             # ),  
@@ -383,9 +425,14 @@ if __name__ == '__main__':
             ]
         locations = [
             Location(
-                iframe_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13340.919230578898!2d139.7796962715368!3d35.69466653579947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188eb36b54452d%3A0xf1a3e2377b154969!2z6LK444GX5Lya6K2w5a6kIOadseS6rOaWh-WFt-WFseWSjOS8mumkqCDmtYXojYnmqYs!5e0!3m2!1sen!2sfr!4v1766598149913!5m2!1sen!2sfr",
+                coordinates=(35.6959232, 139.787102),
+                address="Japan, 〒111-0052 Tokyo, Taito City, Yanagibashi, 1 Chome−2−10 共和フォーラム 日本",
                 description="東京文具共和会館",
-                sources=[Source("https://www.tinami.com/x/riuichi/04/page3.html", (ReliabilityTypes.Likely, OriginTypes.External))]
+                sources=[Source("https://www.tinami.com/x/riuichi/04/page3.html", (ReliabilityTypes.Likely, OriginTypes.External))],
+                # comments=None,
+                imageUrl="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl41xhdtSFUbvBIJ_pAuMmu26tQ8FBFrz-_JWzVb306EgRIgYV9GyOWC3jLppl3Ts3y--aL8URNYGk0PtGSiydr7LBupNXluFlHp5l3y-gLSqGGihiMPT37Z28oTYnW1w0m3sIQ3SH_xbRG=s0?imgmax=0",
+                url="https://maps.app.goo.gl/pL6UGm5dRB4B7Kq17",
+
             ),  
         ]
         event = Event(
@@ -436,3 +483,4 @@ if __name__ == '__main__':
     event_group.save(save_folder_path, indent=None)
 
     print("Done")
+
